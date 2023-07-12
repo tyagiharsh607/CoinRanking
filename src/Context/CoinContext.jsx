@@ -21,7 +21,7 @@ export const CoinContextProvider = ({ children }) => {
     const options = {
       method: "GET",
       headers: {
-        "X-RapidAPI-Key": "5060670760msha1a255ebae18240p1efcbajsn069ea9cdc13c",
+        "X-RapidAPI-Key": process.env.VITE_API_KEY,
         "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
       },
     };
