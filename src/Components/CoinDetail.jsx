@@ -39,7 +39,7 @@ function CoinDetail({ coin }) {
         <span className=" px-2 w-16">{coin.rank}</span>
       </div>
       <Link to={`/coin/${coin.uuid}`}>
-        <div className="flex flex-column items-center justify-between ">
+        <div className="flex flex-column items-center justify-between hover:shadow-lg">
           <img
             src={coin.iconUrl}
             alt={coin.name}

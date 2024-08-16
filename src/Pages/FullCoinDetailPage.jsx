@@ -23,7 +23,8 @@ function FullCoinDetailPage() {
       const options = {
         method: "GET",
         headers: {
-          "X-RapidAPI-Key": process.env.VITE_API_KEY,
+          "X-RapidAPI-Key":
+            "5060670760msha1a255ebae18240p1efcbajsn069ea9cdc13c",
           "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
         },
       };
@@ -74,7 +75,7 @@ function FullCoinDetailPage() {
                   {coin.change}%
                 </p>
 
-                <div className="flex">
+                {/* <div className="flex">
                   <p className="text-sm">Low</p>
                   <p className="text-sm font-bold ml-2">$ {lowest}</p>
                 </div>
@@ -85,7 +86,7 @@ function FullCoinDetailPage() {
                 <div className="flex">
                   <p className="text-sm">High</p>
                   <p className="text-sm font-bold ml-2">$ {highest}</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
